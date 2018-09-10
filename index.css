@@ -1,0 +1,239 @@
+html,
+body,
+div,
+span {
+  height: 100%;
+  width: 100%;
+
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+
+.main{
+  position: relative;
+  overflow: hidden;
+  padding-top: 19px;
+  margin: auto;
+  padding: 0px;
+  height: calc(100% - 38px);
+}
+
+.chatMain{
+  position: relative;
+  overflow: hidden;
+  padding-top: 19px;
+  margin: auto;
+  padding: 0px;
+}
+
+
+.heading{
+ background-color: #128c7e;
+ padding-top: 20px;
+ 
+ color:white;
+ padding-left: 20px;
+  
+ height: 80px;
+}
+
+.subheading{
+ background-color: #128c7e;
+ height: auto;
+ padding-top: 20px;
+ padding-bottom: 20px;
+ color:white;
+ padding-left: 20px; 
+}
+
+.size{
+  	font-size: 2rem;	
+  	padding-top: 20px;
+  	vertical-align: center;
+
+}
+
+.icon{
+	cursor: pointer;
+}
+
+
+.chats{
+ padding-top: 30px;
+ color:black;
+ padding-left: 20px; 
+ height: 80%;
+ overflow-y: scroll;
+}
+
+.chat{
+	height: 120px;
+	border-bottom: 1px solid grey;
+}
+
+.dp img{
+  border-radius: 50%;
+  height: 80px;
+  width: 80px;
+}
+
+.coversation{
+  padding: 0 !important;
+  margin: 0 !important;
+  background: url("bckgrnd.PNG") no-repeat fixed center;
+  background-size: cover;
+  overflow-y: auto;
+  border: 1px solid #f7f7f7;
+  height: calc(100% - 180px);
+}
+
+.reply {
+  height: 60px;
+  width: 100%;
+  background-color: #f5f1ee;
+  padding: 10px 5px 10px 5px !important;
+  margin: 0 !important;
+  z-index: 1000;
+}
+
+
+.message-body {
+  
+  padding-top: 20px;
+  margin: 0 !important;
+  
+  width: auto;
+  height: auto;
+}
+
+.message-main-receiver {
+  /*padding: 10px 20px;*/
+  max-width: 60%;
+}
+
+.message-main-sender {
+  padding: 3px 20px !important;
+  margin-left: 40% !important;
+  max-width: 60%;
+}
+
+.message-text {
+  margin: 0 !important;
+  padding: 5px !important;
+  word-wrap:break-word;
+  font-weight: 200;
+  font-size: 14px;
+  padding-bottom: 0 !important;
+}
+
+.message-time {
+  margin: 0 !important;
+  margin-left: 50px !important;
+  font-size: 12px;
+  text-align: right;
+  color: #9a9a9a;
+
+}
+
+.receiver {
+  width: auto !important;
+  padding: 4px 10px 7px !important;
+  border-radius: 10px 10px 10px 0;
+  background: #ffffff;
+  font-size: 12px;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, .2);
+  word-wrap: break-word;
+  display: inline-block;
+}
+
+.sender {
+  float: right;
+  width: auto !important;
+  background: #dcf8c6;
+  border-radius: 10px 10px 0 10px;
+  padding: 4px 10px 7px !important;
+  font-size: 12px;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, .2);
+  display: inline-block;
+  word-wrap: break-word;
+}
+
+
+.redirection1{
+
+  font-weight: 700;
+  font-size: 100%;
+  padding: 5px;
+  padding-top:20px;
+  text-align: left;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: #000;
+  display: block;
+
+}
+
+.redirection2{
+
+  font-weight: 700;
+  font-size: 100%;
+  padding: 5px;
+  padding-bottom: 0;
+  text-align: left;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: white;
+  display: block;
+
+}
+
+
+
+
+.profile{
+
+  height: auto;
+  background-color: white;
+  padding-right: 30px;
+}
+
+
+
+.name_edit{
+  height: auto;
+  background-color: lightgrey;
+  border: 1px solid lightgrey;
+  
+  
+}
+
+
+.profilePhotoHead{
+ background-color: black;
+ height: auto;
+ padding-top: 20px;
+ padding-bottom: 20px;
+ color:white;
+ padding-left: 20px; 
+}
+
+.profilePhotoDiv{
+
+  height: 100%;
+  background-color: black;
+  padding-right: 30px;
+
+}
+@media screen and (max-width: 1000px) {
+ .profile .row img  {
+    align-self:center;
+   height:30vw !important;
+}
+ .logo {
+    align-self: center;
+   margin-left:50px;
+}
+}
